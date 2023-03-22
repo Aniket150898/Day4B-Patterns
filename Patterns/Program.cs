@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement 3.FrequencyElement 4.MaxMinElement 5.Patterns 6.ReverseWord");
+            Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement 3.FrequencyElement 4.MaxMinElement " +
+                                              "5.Patterns 6.ReverseWord 7.SumOFAllDigit");
             int option =Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -29,6 +30,9 @@
                     case 6:
                     ReverseWord.ReverseEachWord();
                     break; 
+                    case 7:
+                    SumOfAllDigit.sum();
+                    break;
             }
         }
     }
