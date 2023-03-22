@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome Guy's!!! Performs Array and Patterns Problems");
+            
+            DuplicateArrayElements.Duplicate();
         }
     }
 }
