@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement");
+            Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement 3.FrequencyElement");
             int option =Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -14,7 +14,9 @@
                     case 2:
                     UniqueElement.Unique();
                     break;
-
+                    case 3:
+                    FrequencyOfElement.FrequencyArray();
+                    break;
             }
         }
     }
