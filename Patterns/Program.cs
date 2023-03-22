@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement 3.FrequencyElement 4.MaxMinElement 5.Patterns");
+            Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement 3.FrequencyElement 4.MaxMinElement 5.Patterns 6.ReverseWord");
             int option =Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -26,6 +26,9 @@
                     Console.WriteLine("2nd Pattern:-");
                     Pattern.PrintReactangle();
                     break;
+                    case 6:
+                    ReverseWord.ReverseEachWord();
+                    break; 
             }
         }
     }
