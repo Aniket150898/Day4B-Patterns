@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Select Option:-> 1.DuplicateElement 2.UniqueElement 3.FrequencyElement 4.MaxMinElement " +
-                                              "5.Patterns 6.ReverseWord 7.SumOFAllDigit");
+                                              "5.Patterns 6.ReverseWord 7.SumOFAllDigit 8.SumOfRowOfMatrix");
             int option =Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -32,6 +32,9 @@
                     break; 
                     case 7:
                     SumOfAllDigit.sum();
+                    break;
+                    case 8:
+                    SumOfMatrix.SumOfRowOfMatrix();
                     break;
             }
         }
